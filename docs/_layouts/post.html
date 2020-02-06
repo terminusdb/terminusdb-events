@@ -46,11 +46,17 @@
                             <div class="infobox post__event-info">
                                 <h3><i class="fas fa-info-circle"></i> Information</h3>
                                 <hr/>
+                                {% if page.rsvp_link %}
                                 <p><b>RSVP:</b> <a href="{{ page.rsvp_link }}">Click here</a></p>
+                                {% endif %}
+                                {% comment %}
                                 <p><b>Level:</b> {{ page.level }}</p>
+                                {% endcomment %}
                                 <p><b>Date:</b> {{ page.date | date: "%e %B %Y" }}</p>
+                                {% if page.time != "" %}
                                 <p><b>Time:</b> {{ page.time }}</p>
-                                {% if sponsor %}
+                                {% endif %}
+                                {% if sponsor.name != "" %}
                                     <p>
                                         <b>Address:</b><br/>
                                         {{ sponsor.name }}<br/>
