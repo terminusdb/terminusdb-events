@@ -69,7 +69,7 @@
                   src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBRuhAtOUuReU6mK2bCHMCJTNZUQKj0pNg&callback=initMap">
                 </script>
                 {% for chapter in site.chapters %}
-                    <h3><a href="{{ chapter.url }}">{{ chapter.title }}</a></h3>
+                    <h3><a href="{{ site.baseurl}}{{ chapter.url }}">{{ chapter.title }}</a></h3>
                     <p>
                         <span class="chapters__flag flag-icon flag-icon-{{ chapter.country_code }}"></span>
                         {{ chapter.address }}
