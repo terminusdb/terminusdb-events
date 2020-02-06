@@ -3,8 +3,8 @@ title: TerminusDB Community
 email:
 description: > # this means to ignore newlines until "baseurl:"
   This is a community for people who are interested in learning about open source model driven graph databases.
-#baseurl: "/terminusdb-community" # the subpath of your site, e.g. /blog/
-url: "http://localhost:4000" # the base hostname & protocol for your site
+baseurl: "/terminusdb-community" # the subpath of your site, e.g. /blog/
+#url: "http://localhost:4000" # the base hostname & protocol for your site
 twitter_username: TerminusDB
 github_username: terminusdb
 
