@@ -24,7 +24,7 @@ Agenda
 - 9:00pm - drinks and networking
 
 
-The day of the sprint
+The day of the event
 ---------------------
 
 - Bring your own laptop if want to follow the workshop
