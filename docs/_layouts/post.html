@@ -22,7 +22,7 @@
                                 <div class="infobox post__sponsor-box">
                                     <a href="{{ sponsor.link }}">
                                         <img class="post__sponsor-img"
-                                             src="{{ site.baseurl }}/{{ sponsor.logo }}"
+                                             src="/{{ sponsor.logo }}"
                                         alt="Sponsor logo">
                                     </a>
                                     <p>Thanks to <a href="{{ sponsor.link }}">{{ sponsor.name }}</a> for hosting this event!</p>
@@ -32,7 +32,7 @@
 
                             {% if project.name != "" %}
                                 {% if project.logo != "" %}
-                                    <img class="post__project-logo" src="{{ site.baseurl }}/{{ project.logo }}">
+                                    <img class="post__project-logo" src="/{{ project.logo }}">
                                 {% endif %}
                                 <p>{{ project.content }}</p>
                                 <p>More information about {{ project.name }}: <a href="{{ project.website }}">{{ project.website }}</a></p>

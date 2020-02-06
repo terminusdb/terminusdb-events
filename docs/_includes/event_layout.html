@@ -54,7 +54,7 @@
             {% endunless %}
             {% assign current_date = post.date %}
             {% include get_project.html event = post %}
-            <img class="upcoming__project-logo" src="{{ site.baseurl }}/{{ project.logo }}" alt="Project logo">
+            <img class="upcoming__project-logo" src="/{{ project.logo }}" alt="Project logo">
             <h2 class="upcoming__event-title"> {{ post.title }}</h2>
         </div>
     </div>
