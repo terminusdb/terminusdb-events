@@ -1,10 +1,8 @@
-Python sprints website
+TerminusDB Community website
 ======================
 
-This is the website of the Python sprints group.
+This is the website of the TerminusDB Community.
 
-It was started by the London Python Sprints meetup, but open to any other
-Python User Group (PUG), interested in running sprints.
 
 Website set up
 --------------
@@ -29,7 +27,7 @@ How to add your chapter
 
 Send a pull request adding a new file `_chapters/<your-chapter-name>.md`, where
 `<your-chapter-name>` is the name of your chapter in ascii lowercase, and
-separating words with underscore (e.g. `london_pyton_sprints`).
+separating words with underscore (e.g. `london_community`).
 
 The content of the file has a header section with some fields (started and finished with
 ---), and the main description of the chapter afterwards.
@@ -67,17 +65,16 @@ Example chapter setup
 ---------------------
     ---
     category: "london"
-    title: "London Python Sprints"
-    meetup_link: https://www.meetup.com/Python-Sprints/
+    title: "TerminusDB Community London"
+    meetup_link: https://www.meetup.com/TerminusDB-Community-London
     address: London, United Kingdom
     country_code: gb
-    image: static/images/chapters/london_python_sprints_1920x600px.jpg
+    image: static/images/chapters/Terminus-London.png
     lat: 51.512344
     lng: -0.090985
     sponsors:
-      - harvey_nash
-      - touch_surgery
-      - bloomberg
+      - terminusdb
+      - microsoft_reactor
     ---
     The content of your chapters description goes below ---.
 
@@ -95,8 +92,8 @@ To create an event, you need to add a new file to the `_posts` directory with th
 name following the format `YYYY-MM-DD-slug-of-the-event.md`. Were `YYYY-MM-DD` is the
 date of the event (this will be the date shown on site), and the slug of the event is the title in a format URL friendly
 (only lowercase ascii letters and numbers, separating words with hyphens). For example
-`2017-12-31-django-bugfixing.md` could be the name of a sprint "Django bugfixing"
-happening on December 31st of 2017.
+`2020-02-11-london-1st-graph.md` could be the name of a event
+happening on February 11th of 2020.
 
 The content of the file has a header section with some fields (started and finished with
 ---), and the main description of the event afterwards. This is the format:
@@ -123,12 +120,12 @@ Example event setup
 ---------------------
     ---
     category: "london"
-    title: "Pandas internals"
-    level: "All levels"
+    title: "Let's build my first TerminusDB knowledge graph"
+    level: "All"
     time: "18:30"
-    rsvp_link: https://www.meetup.com/Python-Sprints/events/249350212/
-    project: pandas
-    sponsor: harvey_nash
+    rsvp_link: https://www.meetup.com/TerminusDB-Community-London/events/267063201/
+    project:
+    sponsor: microsoft_reactor
     ---
     The content of your event's description goes below ---.
 
@@ -156,52 +153,17 @@ Create a <name_of_your_sponsor>.md file using the format below:
 Example sponsor setup
 ---------------------
     ---
-    obj_id: quantum_black
-    name: "Quantum Black"
-    logo: static/images/sponsors/quantum_black.png
-    link: https://www.quantumblack.com/
-    address: "Kinnaird House, 1 Pall Mall<br/>London, SW1Y 5AU, UK"
-    lat: 51.507954
-    lng: -0.130718
+    obj_id: terminusdb
+    name: "TerminusDB"
+    logo: static/images/sponsors/terminusdb.png
+    link: https://terminusdb.com/
+    address:
+    lat:
+    lng:
     ---
-    QuantumBlack is an advanced analytics firm operating at the intersection of strategy, technology & design to improve performance outcomes for organisations. With roots in Formula One, we now work across sector with some of the world's leading organisations in advanced industries, healthcare and finance.
+    TerminusDB is a database built for data people. Terminus is a model driven graph database designed specifically for the web-age.
 
-How to add a project
---------------------
-If you the project that you are going to work on is not already in the `_projects` folder you can do add it easily.<br>
-To add a project logo please copy it to the static/images/projects folder.
-We use png files for projects.
-
-Create a <name_of_your_project>.md file using the format below:
-
-    ---
-    obj_id: <unique_identifier_of_your_project>
-    name: "name of your project"
-    logo: <relative path to your project logo>
-    website: <website link to your project>
-    setup_html: |
-        <p>
-            <!-- (link to) instruction of how to setup in html format -->
-        </p>
-    ---
-    Here you can place a short description of your project.
-
-Example project setup
----------------------
-    ---
-    obj_id: pandas
-    name: "Pandas"
-    logo: static/images/projects/pandas_logo_donation.png
-    website: https://pandas.pydata.org/
-    setup_html: |
-        <p>
-            Please follow the instruction in this link:
-            <a href="https://python-sprints.github.io/pandas/guide/index.html">
-                https://python-sprints.github.io/pandas/guide/index.html
-            </a>
-        </p>
-    ---
-    Pandas is an open source, BSD-licensed library providing high-performance, easy-to-use data structures and data analysis tools for the Python programming language.
+    The result is unified, well-structured & refined data - the jet fuel of future business. TerminusDB greatly reduces the time and effort required to build any application that shares, manipulates or edits data.
 
 
 How does Jekyll work?
