@@ -14,7 +14,7 @@ Do you really know the standpoint of politician that you vote for on different i
 
 Data can be openly obtained at [UK Parliament Hansard website](https://hansard.parliament.uk/)
 
-Competition deadline: 31st March 2020
+Competition deadline: 17th March 2020
 
 Team: 1-3 ppl
 
