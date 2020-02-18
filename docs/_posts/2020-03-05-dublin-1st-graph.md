@@ -1,6 +1,6 @@
 ---
 category: "dublin"
-title: "Let's build my first TerminusDB knowledge graph"
+title: "DataOps and my first TerminusDB knowledge graph"
 level: "All"
 time: "18:30"
 rsvp_link: https://www.meetup.com/TerminusDB-Community-Dublin/events/267717964/
@@ -18,7 +18,7 @@ Schedule:
 Agenda
 ------
 - 6:30pm - door opens with food and drink reception
-- 7:15pm - introduction of TerminusDB by Gavin Mendel Gleason
+- 7:15pm - Gavin is going to talk about knowledge collaboration and DataOps
 - 7:45pm - short break and networking
 - 8:00pm - workshop and building my first knowledge graph
 - 9:00pm - drinks and networking
