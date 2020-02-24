@@ -3,7 +3,7 @@ category:
 title: "TerminusDB Webinar - Anatomy of a Knowledge Graph"
 level: "All"
 time: "16:00 UTC"
-rsvp_link:
+rsvp_link: https://zoom.us/webinar/register/WN_cVpsFSh9SQuY-KTPZgZ_Yw
 project:
 sponsor:
 ---
