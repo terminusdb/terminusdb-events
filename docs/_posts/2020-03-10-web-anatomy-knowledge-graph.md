@@ -13,7 +13,9 @@ Are you confused by the terms used in the knowledge graph? Now sure how to desig
 In this Webinar, we will explore how to construct knowledge graph with real data examples. From that, we will also explore the advantage of representing data as graphs instead of tables, the potential use cases in data analysis, search engine optimisation, natural language processing and webpage metadata compliance checking.
 
 When: Mar 10, 2020 04:00 PM UTC
+
 Topic: TerminusDB Webinar - Anatomy of a Knowledge Graph
+
 Agenda: 25 mins presentation + plenty of time for Q&A
 
 **Register in advance for this webinar:
