@@ -8,7 +8,7 @@ project:
 sponsor:
 ---
 
-Are you confused by the terms used in the knowledge graph? Now sure how to design a schema? Terminators, you are invited to a Zoom webinar!
+Are you confused by the terms used in the knowledge graph? Not sure how to design a schema? Terminators, you are invited to a Zoom webinar!
 
 In this Webinar, we will explore how to construct knowledge graph with real data examples. From that, we will also explore the advantage of representing data as graphs instead of tables, the potential use cases in data analysis, search engine optimisation, natural language processing and webpage metadata compliance checking.
 
