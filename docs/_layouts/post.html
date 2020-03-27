@@ -52,10 +52,10 @@
                                 {% comment %}
                                 <p><b>Level:</b> {{ page.level }}</p>
                                 {% endcomment %}
-                                <span itemprop="startDate" itemscope itemtype="https://schema.org/DateTime">
-                                <p itemprop="startDate"><b>Date:</b> {{ page.date | date: "%e %B %Y" }}</p>
+                                <span itemprop="startDate" itemscope itemtype="https://schema.org/DateTime" content="{{ page.date | date: '%Y-%m-%d' }}T{{ page.time }}">
+                                <p><b>Date:</b> {{ page.date | date: "%e %B %Y" }}</p>
                                 {% if page.time != "" %}
-                                <p itemprop="startTime"><b>Time:</b> {{ page.time }}</p>
+                                <p><b>Time:</b> {{ page.time }}</p>
                                 {% endif %}
                                 </span>
                                 {% if sponsor.name != "" %}
