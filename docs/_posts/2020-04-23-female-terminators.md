@@ -14,7 +14,7 @@ If you have questions that you want to ask already, you can do so by tagging #Te
 
 When: April 23, 2020 4:00 PM BST/IST (3:00 PM UTC, 5:00 PM CET)
 
-Topic: TerminusDB Webinar - hat with Female Terminators
+Topic: TerminusDB Webinar - chat with Female Terminators
 
 **Register in advance for this webinar:
 <https://zoom.us/webinar/register/WN_NPiA481FQrKIjaUuvMo2Wg>**
