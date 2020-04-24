@@ -19,7 +19,7 @@
                             <p itemprop="about">{{ page.content }}</p>
 
                             {% if sponsor.name != "" %}
-                                <div class="infobox post__sponsor-box" itemprop="sponsor" itemscope itemtype="https://schema.org/Organization">
+                                <div class="infobox post__sponsor-box" itemprop="sponsor" itemscope itemtype="http://schema.org/Organization">
                                     <a href="{{ sponsor.link }}">
                                         <img class="post__sponsor-img"
                                              src="{{ site.baseurl}}/{{ sponsor.logo }}"
@@ -52,7 +52,7 @@
                                 {% comment %}
                                 <p><b>Level:</b> {{ page.level }}</p>
                                 {% endcomment %}
-                                <span itemprop="startDate" itemscope itemtype="https://schema.org/DateTime" content="{{ page.date | date: '%Y-%m-%d' }}T{{ page.time }}">
+                                <span itemprop="startDate" itemscope itemtype="http://schema.org/DateTime" content="{{ page.date | date: '%Y-%m-%d' }}T{{ page.time }}">
                                 <p><b>Date:</b> {{ page.date | date: "%e %B %Y" }}</p>
                                 {% if page.time != "" %}
                                 <p><b>Time:</b> {{ page.time }}</p>
