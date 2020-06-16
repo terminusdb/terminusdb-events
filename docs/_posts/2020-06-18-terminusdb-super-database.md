@@ -14,7 +14,7 @@ If you have questions that you want to ask already, you can do so by tagging #Te
 
 When: June 18th, 2020 4:00 PM BST/IST (3:00 PM UTC, 5:00 PM CET)
 
-Topic: TerminusDB Roadmap
+Topic: Star of Super Database
 
 **Register in advance for this webinar:
 <https://us02web.zoom.us/webinar/register/WN_hI6t7VzORg2qIuEQSzlt-w>**
