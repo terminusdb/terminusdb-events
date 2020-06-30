@@ -8,7 +8,7 @@ project:
 sponsor:
 ---
 
-In the newest release, WOQL Library is added to both the Javascript and Python client. Do you want to know how to use them? Do you want to know what you get get out of them? This week we will have Kevin Feeney the King of WOQL to give us an introduction.
+In the newest release, WOQL Library has added to both the Javascript and Python client. Do you want to know how to use them? Do you want to know what you get out of them? This week we will have Kevin Feeney the King of WOQL to give us an introduction.
 
 If you have questions that you want to ask already, you can do so by tagging #TerminatorsOnTech and @TerminusDB on Twitter.
 
