@@ -12,7 +12,7 @@ We are very glad that our favourite 5 star Terminator - Chris Horn has created t
 
 If you have questions that you want to ask already, you can do so by tagging #TerminatorsOnTech and @TerminusDB on Twitter.
 
-When: July 17th, 2020 3:00 PM BST/IST (2:00 PM UTC, 4:00 PM CEST)
+When: July 24th, 2020 3:00 PM BST/IST (2:00 PM UTC, 4:00 PM CEST)
 
 Topic: Prolog Swipl client binding for TerminusDB
 
